@@ -6,7 +6,7 @@ busca rápida (⌘K / Ctrl+K) e exportação CSV.
 
 > Os dados são demonstrativos, gerados em `src/data.js`. Ainda não há backend, login nem API.
 
-**Site no ar:** https://erickdev888.github.io/Glasses-Admin-Dashboard/
+**Site no ar:** https://erickdev888.github.io/Glasses-Admin-Dashboard/ · **Wiki:** https://erickdev888.github.io/Glasses-Admin-Dashboard/wiki/
 
 ## Rodar no Windows
 
@@ -35,7 +35,7 @@ Não há recarregamento automático: depois de editar `src/` ou `public/`, rode 
 | `build.cjs` | Script de build com esbuild |
 | `start.bat` / `serve.ps1` | Ligam o site em localhost no Windows |
 
-A documentação completa para desenvolvedores está na wiki do projeto.
+A documentação completa para desenvolvedores está em `public/wiki/wiki.md` e publicada em https://erickdev888.github.io/Glasses-Admin-Dashboard/wiki/.
 
 ## Publicar no GitHub Pages
 

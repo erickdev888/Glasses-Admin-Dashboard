@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 580" role="img" aria-label="Os dados descem de data.js até as telas" font-family="Inter, -apple-system, Segoe UI, sans-serif" font-size="13">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#6a7b88"/></marker>
+  </defs>
+  <text x="24" y="34" font-size="15" font-weight="600" fill="#0c1a25">Os dados descem de data.js até as telas</text>
+  <g fill="none" stroke="#6a7b88" stroke-width="1.25">
+    <path d="M206 136V174" marker-end="url(#arrow)"/>
+    <path d="M206 248V286" marker-end="url(#arrow)"/>
+    <path d="M206 360V398" marker-end="url(#arrow)"/>
+    <path d="M570 368V436H366" marker-end="url(#arrow)"/>
+    <path d="M48 100H32V436H46" marker-end="url(#arrow)"/>
+    <path d="M206 472V502" marker-end="url(#arrow)"/>
+  </g>
+  <g>
+    <rect x="48" y="64" width="316" height="72" rx="8" fill="#ffffff" fill-opacity=".7" stroke="#6a7b88" stroke-width="1.25"/>
+    <text x="60" y="88" font-weight="600" fill="#0c1a25">src/data.js</text>
+    <text x="60" y="104" font-size="11.5" fill="#3a4c5a">Gera os dados demonstrativos (semente fixa)</text>
+    <text x="60" y="120" font-size="11.5" fill="#3a4c5a">Exporta PRODUCTS, ORDERS, periodRange…</text>
+  </g>
+  <g>
+    <rect x="48" y="176" width="316" height="72" rx="8" fill="#ffffff" fill-opacity=".7" stroke="#6a7b88" stroke-width="1.25"/>
+    <text x="60" y="200" font-weight="600" fill="#0c1a25">src/store.jsx</text>
+    <text x="60" y="216" font-size="11.5" fill="#3a4c5a">StoreProvider: estado compartilhado + badges</text>
+    <text x="60" y="232" font-size="11.5" fill="#3a4c5a">useRoute / go: rotas pela #/ da URL</text>
+  </g>
+  <g>
+    <rect x="48" y="288" width="316" height="72" rx="8" fill="#ffffff" fill-opacity=".7" stroke="#6a7b88" stroke-width="1.25"/>
+    <text x="60" y="312" font-weight="600" fill="#0c1a25">src/main.jsx</text>
+    <text x="60" y="328" font-size="11.5" fill="#3a4c5a">Shell: Sidebar, Topbar, paleta ⌘K</text>
+    <text x="60" y="344" font-size="11.5" fill="#3a4c5a">Escolhe a página pelo array NAV</text>
+  </g>
+  <g>
+    <rect x="48" y="400" width="316" height="72" rx="8" fill="#1683c9" fill-opacity=".12" stroke="#1683c9" stroke-width="2"/>
+    <text x="60" y="424" font-weight="600" fill="#0c1a25">src/pages/*.jsx</text>
+    <text x="60" y="440" font-size="11.5" fill="#0c1a25">17 telas; leem useStore() e data.js</text>
+    <text x="60" y="456" font-size="11.5" fill="#0c1a25">Ações chamam setOrders, setTasks…</text>
+  </g>
+  <g>
+    <rect x="404" y="160" width="332" height="208" rx="8" fill="#0c1a25" fill-opacity=".045" stroke="#6a7b88" stroke-width="1.25"/>
+    <text x="420" y="184" font-weight="600" fill="#0c1a25">Kit visual</text>
+    <rect x="420" y="192" width="300" height="72" rx="8" fill="#ffffff" fill-opacity=".7" stroke="#6a7b88" stroke-width="1.25"/>
+    <text x="432" y="216" font-weight="600" fill="#0c1a25">src/ui.jsx</text>
+    <text x="432" y="232" font-size="11.5" fill="#3a4c5a">Componentes, ícones, modais, toasts</text>
+    <text x="432" y="248" font-size="11.5" fill="#3a4c5a">Formatadores brl, pct, fmtDate</text>
+    <rect x="420" y="280" width="300" height="72" rx="8" fill="#ffffff" fill-opacity=".7" stroke="#6a7b88" stroke-width="1.25"/>
+    <text x="432" y="304" font-weight="600" fill="#0c1a25">src/charts.jsx</text>
+    <text x="432" y="320" font-size="11.5" fill="#3a4c5a">Gráficos SVG feitos à mão</text>
+    <text x="432" y="336" font-size="11.5" fill="#3a4c5a">BarChart, AreaChart, Donut, HBars…</text>
+  </g>
+  <text x="580" y="404" font-size="11.5" fill="#3a4c5a">usado por todas as telas</text>
+  <g>
+    <rect x="48" y="504" width="688" height="48" rx="8" fill="none" stroke="#6a7b88" stroke-width="1.25" stroke-dasharray="4 4"/>
+    <text x="392" y="532" text-anchor="middle" fill="#0c1a25">npm run build: esbuild junta src/ em dist/app.js e copia public/</text>
+  </g>
+</svg>
