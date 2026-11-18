@@ -1,0 +1,16 @@
+{
+  "name": "glasses-admin-dashboard",
+  "private": true,
+  "scripts": {
+    "build": "node build.cjs",
+    "dev": "node build.cjs && npx serve dist"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "framer-motion": "11.18.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
