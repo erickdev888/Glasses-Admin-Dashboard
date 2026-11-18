@@ -6,6 +6,8 @@ busca rápida (⌘K / Ctrl+K) e exportação CSV.
 
 > Os dados são demonstrativos, gerados em `src/data.js`. Ainda não há backend, login nem API.
 
+**Site no ar:** https://erickdev888.github.io/Glasses-Admin-Dashboard/
+
 ## Rodar no Windows
 
 Dê dois cliques em `start.bat`. Ele abre o painel em http://localhost:3000.
@@ -34,3 +36,17 @@ Não há recarregamento automático: depois de editar `src/` ou `public/`, rode 
 | `start.bat` / `serve.ps1` | Ligam o site em localhost no Windows |
 
 A documentação completa para desenvolvedores está na wiki do projeto.
+
+## Publicar no GitHub Pages
+
+O site publicado é o conteúdo da pasta `dist/`, enviado para o branch `gh-pages`.
+Depois de alterar o código:
+
+```bash
+npm run build                                   # regera dist/
+git add -A && git commit -m "Descreva a mudança"
+git push                                        # envia o código para o main
+git subtree push --prefix dist origin gh-pages  # publica o novo dist/ no site
+```
+
+Em 1 ou 2 minutos a nova versão aparece em https://erickdev888.github.io/Glasses-Admin-Dashboard/.
